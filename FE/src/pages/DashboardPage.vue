@@ -1,12 +1,13 @@
 <template>
   <q-page class="flex flex-center" >
-    <!-- content -->
-    <h3> داشبورد </h3>
-  </q-page>
+<h3>  خوش آمدید </h3>
+ </q-page>
 </template>
 
 <script>
-export default {
-  // name: 'PageName',
-}
+import { defineComponent } from 'vue'
+
+export default defineComponent({
+  name: 'IndexPage'
+})
 </script>

@@ -4,7 +4,7 @@ const routes = [
     path: '/',
     component: () => import('layouts/FirstLayout.vue'),
     children: [
-      { path: '', component: () => import('pages/IndexPage.vue'),
+      { path: '', component: () => import('pages/DashboardPage.vue'),
       meta :{
         requireAuth :false,
       },
@@ -37,7 +37,7 @@ const routes = [
   },
    {
     path: '/dashboard',
-    component: () => import('layouts/SecondLayout.vue'),
+    component: () => import('layouts/FirstLayout.vue'),
     children: [
       { path: '', component: () => import('pages/DashboardPage.vue'),
       meta :{
@@ -48,70 +48,70 @@ const routes = [
   },
      {
     path: '/contact',
-    component: () => import('layouts/SecondLayout.vue'),
+    component: () => import('layouts/FirstLayout.vue'),
     children: [
       { path: '', component: () => import('pages/ContactPage.vue') }
     ]
   },
     {
     path: '/resume',
-    component: () => import('layouts/SecondLayout.vue'),
+    component: () => import('layouts/FirstLayout.vue'),
     children: [
       { path: '', component: () => import('pages/ResumePage.vue') }
     ]
   },
     {
     path: '/profile',
-    component: () => import('layouts/SecondLayout.vue'),
+    component: () => import('layouts/FirstLayout.vue'),
     children: [
       { path: '', component: () => import('pages/ProfilePage.vue') }
     ]
   },
      {
     path: '/skils',
-    component: () => import('layouts/SecondLayout.vue'),
+    component: () => import('layouts/FirstLayout.vue'),
     children: [
       { path: '', component: () => import('pages/SkilsPage.vue') }
     ]
   },
   {
     path: '/work',
-    component: () => import('layouts/SecondLayout.vue'),
+    component: () => import('layouts/FirstLayout.vue'),
     children: [
       { path: '', component: () => import('pages/WorkPage.vue') }
     ]
   },
      {
     path: '/portfolio',
-    component: () => import('layouts/SecondLayout.vue'),
+    component: () => import('layouts/FirstLayout.vue'),
     children: [
       { path: '', component: () => import('pages/PortfolioPage.vue') }
     ]
   },
      {
     path: '/educations',
-    component: () => import('layouts/SecondLayout.vue'),
+    component: () => import('layouts/FirstLayout.vue'),
     children: [
       { path: '', component: () => import('pages/EducationsPage.vue') }
     ]
   },
       {
     path: '/biography',
-    component: () => import('layouts/SecondLayout.vue'),
+    component: () => import('layouts/FirstLayout.vue'),
     children: [
       { path: '', component: () => import('pages/BiographyPage.vue') }
     ]
   },
        {
     path: '/about',
-    component: () => import('layouts/SecondLayout.vue'),
+    component: () => import('layouts/FirstLayout.vue'),
     children: [
       { path: '', component: () => import('pages/AboutPage.vue') }
     ]
   },
         {
     path: '/settings',
-    component: () => import('layouts/SecondLayout.vue'),
+    component: () => import('layouts/FirstLayout.vue'),
     children: [
       { path: '', component: () => import('pages/SettingsPage.vue') }
     ]

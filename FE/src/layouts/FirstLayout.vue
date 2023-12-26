@@ -13,10 +13,10 @@
         <q-toolbar-title  >
           <q-tabs  >
             <q-route-tab to="/" label="خانه" />
-            <q-route-tab to="#portfolio" label="نمونه کارها" />
-            <q-route-tab to="#about" label="درباره ما" />
-            <q-route-tab to="#contact" label="تماس با ما" />
-            <q-route-tab to="#resume" label="دانلود رزومه" />
+            <q-route-tab to="/portfolio" label="نمونه کارها" />
+            <q-route-tab to="/about" label="درباره ما" />
+            <q-route-tab to="/contact" label="تماس با ما" />
+            <q-route-tab to="/resume" label="دانلود رزومه" />
           </q-tabs>
         </q-toolbar-title>
         <div>CVManager 2023</div>
