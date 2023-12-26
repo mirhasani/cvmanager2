@@ -1,6 +1,6 @@
 <template>
   <div class="swiper-container text-center">
-    <h4>نمونه کارها</h4>
+    <h4>نمونه کارهای من </h4>
     <swiper style="width:300px" class="full-width" :slides-per-view="4" :space-between="0">
 <swiper-slide class="slide roundCard">
        <div class="storyAvatar flex flex-center">

@@ -65,7 +65,7 @@ export default defineComponent({
               q.cookies.set('refresh_token' , r.data.refresh_token , {expires: '365d'})
               q.cookies.set('expires_in' , r.data.expires_in , {expires: '365d'})
             }
-            router.push('/dashboard');
+            router.push('/admin/dashboard');
         });
       }else{
         alert("password not match")

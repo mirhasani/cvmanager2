@@ -1,6 +1,6 @@
 <template>
   <q-page class="flex flex-center" >
-<h3> افزودن تحصیلات </h3>
+<h3>  تحصیلات من</h3>
  </q-page>
 </template>
 

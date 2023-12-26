@@ -1,6 +1,6 @@
 <template>
   <q-page class="flex flex-center" >
-<h3>  افزودن  پروفایل </h3>
+<h3>    پروفایل من</h3>
  </q-page>
 </template>
 

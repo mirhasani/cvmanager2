@@ -2,11 +2,11 @@
 const routes = [
   {
     path: '/',
-    component: () => import('layouts/FirstLayout.vue'),
+    component: () => import('layouts/SecondLayout.vue'),
     children: [
-      { path: '', component: () => import('pages/IndexPage.vue'),
+      { path: '', component: () => import('src/pages/admin/DashboardPage.vue'),
       meta :{
-        requireAuth :false,
+        requireAuth :true,
       },
      },
     ],
@@ -15,7 +15,7 @@ const routes = [
     path: '/admin',
     component: () => import('layouts/MainLayout.vue'),
     children: [
-      { path: '', component: () => import('pages/LoginPage.vue') ,
+      { path: '', component: () => import('src/pages/admin/LoginPage.vue') ,
       meta :{
         requireAuth :false,
         admin : true
@@ -27,7 +27,7 @@ const routes = [
     path: '/confirm',
     component: () => import('layouts/MainLayout.vue'),
     children: [
-      { path: '', component: () => import('pages/ConfirmPage.vue'),
+      { path: '', component: () => import('src/pages/admin/ConfirmPage.vue'),
       meta :{
         requireAuth :false,
         confirm : true
@@ -36,10 +36,10 @@ const routes = [
     ],
   },
    {
-    path: '/dashboard',
+    path: '/admin/dashboard',
     component: () => import('layouts/SecondLayout.vue'),
     children: [
-      { path: '', component: () => import('pages/DashboardPage.vue'),
+      { path: '', component: () => import('src/pages/admin/DashboardPage.vue'),
       meta :{
         requireAuth :true,
       },
@@ -47,73 +47,73 @@ const routes = [
     ],
   },
      {
-    path: '/contact',
+    path: '/admin/contact',
     component: () => import('layouts/SecondLayout.vue'),
     children: [
-      { path: '', component: () => import('pages/ContactPage.vue') }
+      { path: '', component: () => import('src/pages/admin/ContactPage.vue') }
     ]
   },
     {
-    path: '/resume',
+    path: '/admin/resume',
     component: () => import('layouts/SecondLayout.vue'),
     children: [
-      { path: '', component: () => import('pages/ResumePage.vue') }
+      { path: '', component: () => import('src/pages/admin/ResumePage.vue') }
     ]
   },
     {
-    path: '/profile',
+    path: '/admin/profile',
     component: () => import('layouts/SecondLayout.vue'),
     children: [
-      { path: '', component: () => import('pages/ProfilePage.vue') }
+      { path: '', component: () => import('src/pages/admin/ProfilePage.vue') }
     ]
   },
      {
-    path: '/skils',
+    path: '/admin/skils',
     component: () => import('layouts/SecondLayout.vue'),
     children: [
-      { path: '', component: () => import('pages/SkilsPage.vue') }
+      { path: '', component: () => import('src/pages/admin/SkilsPage.vue') }
     ]
   },
   {
-    path: '/work',
+    path: '/admin/work',
     component: () => import('layouts/SecondLayout.vue'),
     children: [
-      { path: '', component: () => import('pages/WorkPage.vue') }
+      { path: '', component: () => import('src/pages/admin/WorkPage.vue') }
     ]
   },
      {
-    path: '/portfolio',
+    path: '/admin/portfolio',
     component: () => import('layouts/SecondLayout.vue'),
     children: [
-      { path: '', component: () => import('pages/PortfolioPage.vue') }
+      { path: '', component: () => import('src/pages/admin/PortfolioPage.vue') }
     ]
   },
      {
-    path: '/educations',
+    path: '/admin/educations',
     component: () => import('layouts/SecondLayout.vue'),
     children: [
-      { path: '', component: () => import('pages/EducationsPage.vue') }
+      { path: '', component: () => import('src/pages/admin/EducationsPage.vue') }
     ]
   },
       {
-    path: '/biography',
+    path: '/admin/biography',
     component: () => import('layouts/SecondLayout.vue'),
     children: [
-      { path: '', component: () => import('pages/BiographyPage.vue') }
+      { path: '', component: () => import('src/pages/admin/BiographyPage.vue') }
     ]
   },
        {
-    path: '/about',
+    path: '/admin/about',
     component: () => import('layouts/SecondLayout.vue'),
     children: [
-      { path: '', component: () => import('pages/AboutPage.vue') }
+      { path: '', component: () => import('src/pages/admin/AboutPage.vue') }
     ]
   },
         {
-    path: '/settings',
+    path: '/admin/settings',
     component: () => import('layouts/SecondLayout.vue'),
     children: [
-      { path: '', component: () => import('pages/SettingsPage.vue') }
+      { path: '', component: () => import('src/pages/admin/SettingsPage.vue') }
     ]
   },
 
@@ -122,7 +122,7 @@ const routes = [
   // but you can also remove it
   {
     path: '/:catchAll(.*)*',
-    component: () => import('pages/ErrorNotFound.vue')
+    component: () => import('src/pages/admin/ErrorNotFound.vue')
   }
 ]
 

@@ -1,6 +1,6 @@
 <template>
   <q-page class="flex flex-center" >
-<h3>  خوش آمدید </h3>
+<h3>  افزودن درباره ما  </h3>
  </q-page>
 </template>
 
@@ -11,3 +11,4 @@ export default defineComponent({
   name: 'IndexPage'
 })
 </script>
+

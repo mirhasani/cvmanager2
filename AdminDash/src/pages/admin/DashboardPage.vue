@@ -1,7 +1,7 @@
 <template>
   <q-page class="flex flex-center" >
     <!-- content -->
-    <h3> داشبورد </h3>
+    <h3> به صفحه مدیریت داشبورت خوش آمدید </h3>
   </q-page>
 </template>
 

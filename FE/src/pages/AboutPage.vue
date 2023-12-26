@@ -1,6 +1,6 @@
 <template>
   <q-page class="flex flex-center" >
-<h3>  درباره ما  </h3>
+<h3>  درباره من  </h3>
  </q-page>
 </template>
 
