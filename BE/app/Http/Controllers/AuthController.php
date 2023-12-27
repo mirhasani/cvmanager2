@@ -45,10 +45,10 @@ class AuthController extends Controller
         $clientSecret = DB::table('oauth_clients')->where('id', 2)->value('secret');
 
         //uncomment on server
-        $response = Http::asForm()->post(env('APP_URL') . '/oauth/token' , [
+        // $response = Http::asForm()->post(env('APP_URL') . '/oauth/token' , [
 
         //uncomment on localhost
-        //$response = Http::asForm()->post('http://localhost:8001/oauth/token' , [
+        $response = Http::asForm()->post('http://localhost:8001/oauth/token' , [
             'grant_type' => 'password',
             'client_id' => '2',
             'client_secret' => $clientSecret,

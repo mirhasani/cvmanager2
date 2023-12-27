@@ -56,63 +56,63 @@
     {
       title: 'داشبورت',
       icon: 'dashboard',
-      link:'http://localhost:9201/#/admin/dashboard'
+      link:'/#/admin/dashboard'
 
     },
     {
       title: 'پروفایل',
       icon: 'person',
-      link: 'http://localhost:9201/#/admin/profile'
+      link: '/#/admin/profile'
 
     },
 
       {
       title: 'مهارت ها',
       icon: 'code',
-      link: 'http://localhost:9201/#/admin/skils'
+      link: '/#/admin/skils'
     },
 
     {
       title: ' تجربه کاری',
       icon: 'work',
-      link: 'http://localhost:9201/#/admin/work'
+      link: '/#/admin/work'
     },
     {
       title: 'نمونه کارها',
       icon: 'collections',
-      link: 'http://localhost:9201/#/admin/portfolio'
+      link: '/#/admin/portfolio'
     },
 
     {
       title: 'تحصیلات',
       icon: 'school',
-      link: 'http://localhost:9201/#/admin/educations'
+      link: '/#/admin/educations'
     },
      {
       title: 'اطلاعات تماس',
       icon: 'call',
-      link: 'http://localhost:9201/#/admin/contact'
+      link: '/#/admin/contact'
     },
     {
       title: 'رزومه',
       icon: 'download',
-      link: 'http://localhost:9201/#/admin/resume'
+      link: '/#/admin/resume'
     },
     {
       title: 'بیوگرافی',
       icon: 'info',
-      link: 'http://localhost:9201/#/admin/biography'
+      link: '/#/admin/biography'
     },
 
        {
       title: ' درباره ما',
        icon: 'help',
-      link: 'http://localhost:9201/#/admin/about'
+      link: '/#/admin/about'
     },
      {
       title: 'تنظیمات',
       icon: 'settings',
-      link: 'http://localhost:9201/#/admin/settings'
+      link: '/#/admin/settings'
     },
 
 

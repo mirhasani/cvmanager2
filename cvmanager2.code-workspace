@@ -1,13 +1,16 @@
 {
 	"folders": [
 		{
+			"name": "FE",
+			"path": "FE"
+		},
+		{
+			"name": "BE",
 			"path": "BE"
 		},
 		{
+			"name": "AdminDash",
 			"path": "AdminDash"
-		},
-		{
-			"path": "FE"
 		}
 	],
 	"settings": {}
